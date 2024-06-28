@@ -1,12 +1,1 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Daily_Diary
-{
-    class Test
-    {
-    }
-}
+﻿This is a Test File
