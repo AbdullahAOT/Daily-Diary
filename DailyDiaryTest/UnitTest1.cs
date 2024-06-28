@@ -19,7 +19,7 @@ namespace DailyDiaryTest
         {
             DailyDiary diary2 = new DailyDiary();
             diary2.setFilePath("Test2.txt");
-            string fileTextAfterAdd = diary2.AddToDailyDiary("13/10/2001", "This is my birthday");
+            string fileTextAfterAdd = diary2.AddToDailyDiary("15/10/2001", "This is my birthday");
             string[] arrayToCompare = File.ReadAllLines(diary2.filePath);
             Assert.Equal(4, arrayToCompare.Length);
         }
